@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+env/
+.env
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data Files (share via Google Drive link instead)
+data/*.csv
+data/*.xlsx
+data/*.zip
+data/*.tar.gz
+!data/README.md
+
+# Model Files (too large for GitHub)
+results/*.pkl
+results/*.joblib
+results/*.h5
+results/*.pt
+results/*.pth
+
+# Logs
+*.log
+logs/
